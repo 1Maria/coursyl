@@ -14,3 +14,9 @@
 //= require jquery_ujs
 //= require d3
 //= require_tree .
+
+
+function disableButton() {
+  var button = document.getElementById("update_button");
+  setTimeout(function() {button.disabled = true;}, 1);
+}

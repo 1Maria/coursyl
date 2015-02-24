@@ -42,8 +42,6 @@ function hideDeleted(button) {
   button.parentElement.parentElement.parentElement.style.display = 'none';
 }
 
+function smoothScrolling() {
 
-
-
-
-//= Back on the course detail page, you'll notice that clicking on the various nav buttons in the blue box will cause the page to snap to that section. Implement smooth scrolling instead.
+}

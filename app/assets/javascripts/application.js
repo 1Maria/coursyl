@@ -38,9 +38,11 @@ function addRow() {
   }
 }
 
+function hideDeleted(button) {
+  button.parentElement.parentElement.parentElement.style.display = 'none';
+}
 
 
-//= When a Delete button is clicked, hide the row to which it belongs, but mark the hidden _destroy field in that row as truthy.
 
 
 
